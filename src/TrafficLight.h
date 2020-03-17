@@ -28,8 +28,8 @@ private:
 // Furthermore, there shall be the private member _currentPhase which can take „red“ or „green“ as its value.
 enum TrafficLightPhase
 {
-	red,
-	green,
+    red,
+    green,
 };
 
 class TrafficLight
@@ -41,8 +41,8 @@ public:
 
     // typical behaviour methods
     void waitForGreen();
-	void simulate();
-	TrafficLightPhase getCurrentPhase();
+    void simulate();
+    TrafficLightPhase getCurrentPhase();
 
 private:
     // typical behaviour methods
