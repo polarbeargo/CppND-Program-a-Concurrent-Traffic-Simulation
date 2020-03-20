@@ -73,6 +73,8 @@ void TrafficLight::cycleThroughPhases()
             {
                 _currentPhase == TrafficLightPhase::red
             }
+            
+            update_time = std::chrono::system_clock::now();
         }
     }
 }
