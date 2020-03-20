@@ -66,7 +66,7 @@ void TrafficLight::cycleThroughPhases()
         {
             if (_currentPhase == TrafficLightPhase::red)
             {
-                _currentPhase =  TrafficLightPhase::green;
+                _currentPhase = TrafficLightPhase::green;
             }
             else
             {
