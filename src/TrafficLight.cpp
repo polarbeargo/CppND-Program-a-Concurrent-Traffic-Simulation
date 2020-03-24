@@ -81,6 +81,7 @@ void TrafficLight::cycleThroughPhases()
             }
             _messageQueue.send(std::move(_currentPhase));
             update_time = std::chrono::system_clock::now();
+            cycleDuration = duration(mt_rand);
         }
     }
 }
